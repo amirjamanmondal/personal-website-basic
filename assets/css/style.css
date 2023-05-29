@@ -1,0 +1,239 @@
+
+/* body{
+  background-image: url(/img/bgrnd.png);
+  background-size: 80%;
+} */
+.home {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  /* align-items: flex-start; */
+  /* flex-direction: column-reverse; */
+  /* flex-wrap: wrap; */
+ 
+  
+}
+.header {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid grey;
+  position: fixed;
+  font-family: "Ubuntu", sans-serif;
+  background-color: aqua;
+  /* padding-bottom: 50px; */
+}
+.owner_name h2 {
+  font-family: 'Roboto', sans-serif;
+  /* font-family: "Alkatra", cursive; */
+}
+
+.header .menubar ul {
+  width: 600px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  font-size: 1.2rem;
+  font-weight: 150;
+  text-decoration: none;
+  color: rgb(209, 12, 12);
+}
+#idownload{
+  color: blue;
+}
+.main {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 10%;
+}
+.left {
+  height: 50%;
+  width: 50%;
+  padding-top: 20px;
+  color: rgb(27, 197, 32);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.textbox {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* column-gap: 5px; */
+  /* row-gap: 10px; */
+  flex-wrap: wrap;
+  font-size: 1.2rem;
+  color: blue;
+  
+
+}
+.hire {
+  height: 40px;
+  width: 70px;
+  border-radius: 20%;
+  font-weight: 200;
+  font-size: 1rem;
+  margin-top: 50px;
+  background-color: rgb(76, 76, 223);
+}
+.right {
+  width: 15%;
+  height: 30%;
+  background-color: rgb(44, 240, 194);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right img {
+  height: 100%;
+  width: 80%;
+  border-radius: 50%;
+  /* align-self: center; */
+}
+.skill {
+  height: 100vh;
+  width: 100%;
+  /* background-color: rgb(15, 117, 206); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.contain {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  font-family: "sofia";
+
+}
+.desc1 {
+  height: 60%;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.Project {
+  height: 100vh;
+  width: 100%;
+  /* background-color: rgb(148, 163, 19); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.descrip2 {
+  height: 60%;
+  width: 60%;
+  background-color: rgb(210, 137, 42);
+  margin-top: 25px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box1 {
+  height: 90%;
+  width: 95%;
+  border-radius: 7px;
+  background-color: wheat;
+}
+.top {
+  height: 15%;
+  width: 100%;
+  border-radius: 7px 7px 0px 0px;
+  background-color: rgb(138, 138, 169);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about {
+  height: 100vh;
+  width: 100%;
+  /* background-color: rgb(54, 169, 218); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "sofia";
+
+}
+.title3{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+
+.cont{
+  height: 100vh;
+  width: 100%;
+  /* background-color: cadetblue; */
+  display: flex;
+  justify-content: space-around ;
+  align-items: center;
+  flex-direction: row;
+}
+
+.mbox{
+  height: 40%;
+  width: 40%;
+  
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.mbox2{
+  height: 50%;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: aqua;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.wind3{
+  position: relative;
+  
+}
+.wind3 h1{
+  text-align: center;
+}
+.line{
+  margin-bottom: 20px;
+}
+input{
+  min-width: 80px;
+  max-width: 150px;
+  /* margin-left: 10px; */
+}
+.fname{
+  margin-left: 40px;
+}
+.mail{
+  margin-left: 22px;
+}
+.phnum{
+  margin-left: 10px;
+}
